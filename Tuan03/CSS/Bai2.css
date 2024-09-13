@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1000px;
+    height: 700px;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+header{
+    width: 1000px;
+    height: 150px;
+    background-color: #294e79;
+    position: relative;
+}
+
+header img{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+header h1{
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    color: white;
+}
+
+header p{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: white;
+}
+
+header form{
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    color: azure;
+}
+
+header #sea, #go{
+    background-color: #091f38;
+}
+
+nav{
+    position: absolute;
+    bottom: 0;
+    left: 400px;
+}
+
+.menu li{
+    display: inline-table;
+    height: 50px;
+    background-color: #2a57a5;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.menu li:hover{
+    background-color: azure;
+}
+
+.menu li:hover>a{
+    color: blue;
+}
+
+.menu li .sub-menu{
+    display: none;
+    background-color: azure;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+}
+
+.menu li:hover .sub-menu{
+    display: block;
+    left: 0px;
+    top: 51px;
+}
+
+.menu li:nth-child(4){
+    position: relative;
+}
+
+.menu li .sub-menu li:nth-child(1){
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    width: 150px;
+}
+
+.menu li .sub-menu li:nth-child(2){
+    position: absolute;
+    top: 54px;
+    left: 0px;
+    width: 150px;
+}
+
+.menu li .sub-menu li:nth-child(3){
+    position: absolute;
+    top: 106px;
+    left: 0px;
+    width: 150px;
+}
+
+.content{
+    width: 1000px;
+    height: 500px;
+}
+
+section{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+section h2{
+    width: 97%;
+    height: 50px;
+    line-height: 50px;
+    color: #555;
+}
+
+section #s1{
+    width: 60%;
+    height: 450px;
+    float: left;
+}
+
+#s1 p{
+    text-align: justify;
+    padding: 15px;
+    color: rgb(247, 12, 12);
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 2px 5px 6px rgb(49, 212, 136);
+}
+
+#s1
+
+section #s2{
+    width: 40%;
+    height: 450px;
+    float: left;
+}
+
+aside{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+footer{
+    position: relative;
+    width: 1000px;
+    height: 50px;
+    background-color: #294e79;
+    text-align: center;
+}
+

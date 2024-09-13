@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#container{
+    margin-top: 10px;
+    margin: 0 auto;
+    border: 1px solid rgb(207, 206, 206);
+    width: 1000px;
+    height: 950px;
+    font-family: Georgia, Times, serif;
+    box-shadow: 2px 5px 10px gray, -2px 5px 10px gray;
+    padding: 2px 2px 2px 12px;
+}
+
+header{
+    margin-top: 12px;
+    width: 99%;
+    height: 200px;
+    background-image: url(../IMAGES/background.png);
+    padding: 8px 0 0 0;
+}
+
+nav{
+    margin-top: 33px;
+    width: 100%;
+    height: 40px;
+    background-color: #afaeaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    float: left;
+    margin-top: 40px;
+    width: 73%;
+    height: 623px;
+}
+
+aside{
+    float: left;
+    width: 24%;
+    height: 637px;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-left: 1px solid rgb(226, 225, 225);
+}
+
+footer{
+    float: left;
+    margin-top: 10px;
+    width: 99%;
+    height: 35px;
+    background-color: #afaeaa;
+    padding: 0 0 0 14px;
+    color: white;
+}
+
+#a1{
+    width: 96%;
+    height: 280px;
+    margin-top: 22px;
+    margin-left: 15px;
+}
+
+#a2{
+    width: 95%;
+    height: 280px;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+
+#s2{
+    width: 89%;
+    height: 325px;
+    padding-top: 15px;
+    margin-top: 0;
+}
+
+#s3{
+    width: 89%;
+    height: 298px;
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+
+#logo{
+    float: left;
+    margin-top: 5px;
+    width: 13%;
+    height: 140px;
+    margin-right: 10px;
+}
+
+#p1{
+    font-size: 40px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(240, 248, 255, 0.984);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(240, 248, 255, 0.8);
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 5px 320px 5px 0;
+}
+
+nav li{
+    margin-right: 65px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline;
+}
+
+nav a:hover{
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+figure{
+    border: 1px solid rgb(226, 225, 225);
+    float: left;
+    height: 280px;
+    margin: 0 20px 0 10px;
+}
+
+#pic1{
+    width: 375px;
+    height: 235px;
+    padding: 4px;
+}
+
+#bocchoi{
+    font-size: 17px;
+    margin-left: 5px;
+    font-weight: 550;
+    color: dimgrey;
+}
+
+#d1{
+    line-height: 1.5;
+    font-size: 14px;
+    color: rgb(92, 91, 91);
+}
+
+#d2{
+    color: rgb(240, 77, 147);
+    line-height: 1.4;
+    font-size: 17px;
+}
+
+#d2 a{
+    display: block;
+    border-bottom: 1px solid rgb(226, 225, 225);
+    color: rgb(240, 77, 147);
+    padding: 10px;
+    margin-top: 20;
+    text-decoration: none;
+}
+
+#d2 a:hover{
+    background-color: rgb(230, 226, 226);
+}
+
+#d3{
+    line-height: 1.5;
+    font-size: 14px;
+    color: rgb(240, 77, 147);
+    margin-top: 55px;
+}
+
+#d3 h2{
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+#d3 h3{
+    color: rgb(92, 91, 91);
+    margin-left: 10px;
+}
+
+#d2 h3{
+    margin-left: 10px;
+}
+
+#d2 h2{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+h2, h3, h4{
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+#d1 h2{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 0;
+    color: rgb(240, 77, 147);
+}
+
+h4{
+    margin-top: 7px;
+    line-height: 1.6;
+}

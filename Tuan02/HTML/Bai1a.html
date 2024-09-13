@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Cafe Menu</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        #container{
+            margin-top: 30px;
+            width: 900px;
+            height: 450px;
+            border: 1px solid #9f2c2d;
+        }
+
+        #header{
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        #header h1{
+            color: #9f2c2d;
+            text-transform: uppercase;
+            font-style: italic;
+            text-shadow: 20px 20px 10px #ef9c9d;
+        }
+
+        #menu_n{
+            width: 100%;
+            height: 30px;
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+            line-height: 30px;
+        }
+
+        #menu_n ul li{
+            display:inline-block;
+        }
+
+        #menu_n ul li a{
+            text-decoration: none;
+        }
+
+        #section{
+            width: 100%;
+            height: 320px;
+        }
+
+        #section h2{
+            color: #9f2c2d;
+            background-color: beige;
+            height: 40px;
+            line-height: 40px;
+        }
+
+        #section #ho{
+            color: rgb(170, 98, 11);
+            text-transform: uppercase;
+        }
+
+        #section span{
+            color: red;
+        }
+
+        #section ul li a{
+            color: red;
+        }
+
+        #section .c1{
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Example Cafe Menu</h1>
+        </div>
+
+        <div id="menu_n">
+            <ul>
+                <li><a href="#starters">Starters</a></li>
+                <li><a href="#main-courses">Main Courses</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+            </ul>
+        </div>
+
+        <div id="section">
+            <h2 id="starters">Starters</h2>
+            <ul>
+                <li>Chestnut and Mushroom Goujons <span>(<a href="#v">v</a>)</span></li>
+                <li>Goat Cheese Salad <span>(<a href="#v">v</a>)</span></li>
+                <li id="ho">Honey Soy Chicken Kebabs <span>(<a href="#v">v</a>)</span></li>
+                <li>Seafood Salad <span>(<a href="#v">v</a>)</span></li>
+            </ul>
+            <a href="#top" class="c1"><strong>Back to top</strong></a>
+
+            <h2 id="desserts">Desserts</h2>
+            <ul>
+                <li>Lemon Sorbet <span>(<a href="#v">v</a>)</span></li>
+                <li>Chocolate Mud Pie <span>(<a href="#v">v</a>)</span></li>
+                <li>Pecan Pie <span>(<a href="#v">v</a>)</span></li>
+                <li>Selection of Fine Cheeses from Around the World <span>(<a href="#v">v</a>)</span></li>
+            </ul>
+            <a href="#top" class="c1"><strong>Back to top</strong></a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: 30px;
+    width: 1000px;
+    height: 440px;
+    border: 1px solid black;
+}
+
+header, footer, menu{
+    width: 100%;
+    height: 40px;
+    background-color: #ffe499;
+    text-align: center;
+}
+
+header, menu{
+    border-bottom: 1px solid black;
+}
+
+footer{
+    clear: both;
+    border-top: 1px solid black;
+}
+
+nav, section, aside{
+    padding-left: 10px;
+    height: 319px;
+    background-color: #ffe499;
+}
+
+nav{
+    width: 20%;
+    border-right: 1px solid black;
+    float: left;
+}
+
+section{
+    width: 55%;
+    float: left;
+}
+
+aside{
+    width: 25%;
+    border-left: 1px solid black;
+    float: left;
+}
