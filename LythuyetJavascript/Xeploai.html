@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xếp loại</title>
+</head>
+<body>
+    <script>
+        var diemTB = (prompt("Nhập điểm TB: ")); 
+        if((diemTB >= 0) && (diemTB <= 10))
+        {
+            if(diemTB >= 8)
+                alert("Xếp loại giỏi.");
+            else if(diemTB >= 6.5)
+                alert("Xếp loại khá.");
+            else if (diemTB >= 5)
+                alert("Xếp loại trung bình.");
+            else
+                alert("Xếp loại yếu.");
+        }
+        else 
+            alert("Giá trị điểm TB không hợp lệ.");
+    </script>
+</body>
+</html>
