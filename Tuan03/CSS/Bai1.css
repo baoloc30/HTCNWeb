@@ -7,7 +7,7 @@
     width: 1200px;
     height: 700px;
     border: 1px;
-    background-color:#6dcaec;
+    background: linear-gradient(#6dcaec, rgb(11, 146, 224));
     margin-top: 30px;
 }
 
@@ -19,6 +19,15 @@ header{
     border-bottom-style: dotted;
     border-color: white;
     border-width: 5px;
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    color: white;
+    font-weight: bolder;
 }
 
 nav ul{
@@ -126,7 +135,7 @@ aside h1, h3{
 }
 
 aside h1{
-    text-shadow: 2px 2px 2px blue;
+    text-shadow: 3px 3px 1px blue;
     font-size: 34px;
     margin-top: 20px;
 }
