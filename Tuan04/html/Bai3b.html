@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Modal with Tabs</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        .modal-header {
+            border-bottom: none;
+        }
+        
+        .nav-tabs .nav-link.active {
+            font-weight: bold;
+            color: #ff5722;
+            border-bottom: 2px solid #ff5722;
+        }
+        
+        .modal-body p {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        
+        .btn-custom {
+            background-color: #ff5722;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#authModal">
+        Đăng Nhập / Đăng Ký
+    </button>
+
+    <div class="modal fade" id="authModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <ul class="nav nav-tabs" id="authTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab">Đăng Nhập</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab">Đăng Ký</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="tab-content" id="authTabContent">
+                        <div class="tab-pane fade show active" id="login" role="tabpanel">
+                            <p>Vui lòng đăng nhập trước khi mua vé để tích lũy điểm, cơ hội nhận thêm nhiều ưu đãi từ chương trình thành viên Galaxy Cinema.</p>
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="loginEmail" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="loginPassword" placeholder="Mật khẩu">
+                                </div>
+                                <a href="#" class="d-block mb-3">Quên mật khẩu?</a>
+                                <button type="submit" class="btn btn-custom btn-block">Đăng Nhập</button>
+                            </form>
+                        </div>
+
+                        <div class="tab-pane fade" id="register" role="tabpanel">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="fullName" placeholder="Họ tên">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="phone" placeholder="Số điện thoại">
+                                    <select name="Gioitinh" id="" disabled="disabled"></select>
+                                    <option value="">Nam</option>
+                                    <option value="">Nữ</option>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="registerEmail" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" id="registerPassword" placeholder="Mật khẩu">
+                                    <input type="password" class="form-control" id="confirmPassword" placeholder="Xác nhận mật khẩu">
+                                </div>
+                                <div class="form-group">
+
+                                </div>
+                                <button type="submit" class="btn btn-primary">ĐĂNG KÝ</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

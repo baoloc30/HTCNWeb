@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Page</title>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #0b3d4d;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+        }
+        
+        .navbar {
+            background-color: #004d66;
+        }
+        
+        .navbar-brand,
+        .nav-link {
+            color: #ffffff !important;
+        }
+        
+        .navbar-nav .nav-item:not(:last-child) {
+            margin-right: 15px;
+        }
+        
+        .navbar-nav .nav-item .btn-outline-light {
+            border-color: #ffffff;
+        }
+        
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+        
+        .image-container {
+            flex: 1;
+            padding-right: 20px;
+        }
+        
+        .image-container img {
+            width: 100%;
+        }
+        
+        .text-container {
+            flex: 1;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 60px 0;
+        }
+        
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .button-group {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .btn-custom {
+            background-color: #ff3366;
+            color: #ffffff;
+            border: none;
+            width: 150px;
+        }
+        
+        .btn-custom:hover {
+            background-color: #cc0052;
+        }
+        
+        .btn-outline-light {
+            border: 2px solid #ffffff;
+            width: 150px;
+        }
+        
+        .description {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Restaurant Template</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Block Demos 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Block Demos 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Site Templates 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Site Templates 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-light" href="#">Download Now!</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Restaurant</h1>
+    </div>
+
+    <div class="content">
+        <div class="image-container">
+            <img src="../img/pizzas.jpg" alt="Delicious Pizza" class="img-fluid">
+        </div>
+        <div class="text-container">
+            <div class="button-group">
+                <button class="btn btn-custom">New Menu</button>
+                <button class="btn btn-outline-light">Terrace</button>
+            </div>
+            <div class="description mt-3">
+                <p>The restaurant area is allowed to accommodate a banquet hall, and a children's hall, where children and their parents can fully enjoy the most interesting animation programs.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

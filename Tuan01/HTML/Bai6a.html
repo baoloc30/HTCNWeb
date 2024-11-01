@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .container{
+            width: 700px;
+            margin: auto;
+            padding: 80px;
+            background-color: #98ccfe;
+            border: 2px solid #ccc;
+        }
+
+        .header{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img{
+            border-radius: 10px;
+            border: 2px solid black;
+            box-shadow: 4px 4px 4px gray;
+        }
+
+        input[type="text"],
+        select,
+        textarea{
+            padding: 5px;
+            margin-bottom: 10px;
+            border: 2px solid #ccc;
+        }
+
+        textarea{
+            height: 100px;
+            resize: none;
+        }
+
+        .button-group{
+            text-align: center;
+        }
+
+        label{
+            display: inline-block;
+            margin-bottom: 10px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="../IMAGES/jackson.png" alt="Jackson Electronics" align="middle" width="300px" height="70px">
+            <br><br>
+            <h2>Registration Form</h2>
+            <p>Register your Jackson Electronics product here</p>
+        </div>
+
+        <form action="/submit_registration" method="post">
+            <div class="form-group">
+                <label for="first_name" style="width: 200px;">First Name:</label>
+                <input type="text" id="first_name" name="first_name" style="width: 150px;">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" style="width: 150px;">
+            </div>
+
+            <div class="form-group">
+                <label for="address1" style="width: 200px;">Address #1:</label>
+                <input type="text" id="address1" name="address1" style="width: 250px;">
+            </div>
+
+            <div class="form-group">
+                <label for="address2" style="width: 200px;">Address #2:</label>
+                <input type="text" id="address2" name="address2" style="width: 250px;">
+            </div>
+
+            <div class="form-group">
+                <label for="city" style="width: 200px;">City:</label>
+                <input type="text" id="city" name="city" style="width: 180px;">
+
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" style="width: 40px;">
+                
+                <label for="zip">Zip:</label>
+                <input type="text" id="zip" name="zip" style="width: 60px;">
+            </div>
+
+            <div class="form-group">
+                <label for="country" style="width: 200px;">Country:</label>
+                <input type="text" id="country" name="country" value="United States"style="width: 180px;">
+            </div>
+            <hr size="2" width="100%" color="gray">
+
+            <div class="form-group">
+                <label for="product" style="width: 200px;">Product:</label>
+                <select id="product" name="product" style="width: 130px;">
+                    <option value="ScanMaster">ScanMaster</option>
+                    <option value="ProScan">ProScan</option>
+                    <option value="UltraScan">UltraScan</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="purchase_date" style="width: 200px;">Date Purchased:</label>
+                <input type="text" id="purchase_date" name="purchase_date" style="width: 180px;">
+            </div>
+
+            <div class="form-group">
+                <label for="serial" style="width: 200px;">Serial #:</label>
+                <input type="text" id="serial" name="serial" style="width: 180px;">
+            </div>
+
+            <div class="form-group">
+                <label style="width: 200px;">Used for:</label>
+                <input type="radio" id="home" name="used_for" value="Home">Home
+                <input type="radio" id="edu" name="used_for" value="Educational Institution" style="margin-left: 120px">Educational Institution<br>
+                <label style="width: 200px;"></label>
+                <input type="radio" id="business" name="used_for" value="Business">Business
+                <input type="radio" id="other" name="used_for" value="Other" style="margin-left: 102px">Other<br>
+                <label style="width: 200px;"></label>
+                <input type="radio" id="govt" name="used_for" value="Government">Government<br><br>
+            </div>
+
+            <div class="form-group">
+                <label style="width: 200px;">System (check all that apply):</label>
+                <input type="checkbox" id="windows" name="system" value="Windows">Windows
+                <input type="checkbox" id="unix" name="system" value="UNIX" style="margin-left: 100px">UNIX<br>
+                <label style="width: 200px;"></label>
+                <input type="checkbox" id="macintosh" name="system" value="Macintosh">Macintosh
+                <input type="checkbox" id="other_system" name="system" value="Other" style="margin-left: 93px">Other
+            </div>
+            <hr size="2" width="100%" color="gray">
+
+            <div class="form-group">
+                <label for="comments" style="width: 200px;">Comments?</label>
+                <textarea id="comments" name="comments" style="width: 482px;"></textarea>
+            </div>
+
+            <div class="button-group">
+                <input type="submit" value="Click to register">
+                <input type="button" value="Click to cancel">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

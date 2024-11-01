@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0px auto;
+}
+
+.container{
+    width: 1200px;
+    height: 700px;
+    border: 1px;
+    background: linear-gradient(#6dcaec, rgb(11, 146, 224));
+    margin-top: 30px;
+}
+
+header{
+    width: 1200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom-style: dotted;
+    border-color: white;
+    border-width: 5px;
+    position: relative;
+}
+
+header h1{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+nav ul li{
+    display: inline;
+    margin: 24px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav ul li a:hover{
+    color: #ffcc00; 
+}
+
+section{
+    width: 50%;
+    height: 560px;
+    float: left;
+}
+
+section h1{
+    font-size: 32px;
+    color: white;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+
+section p{
+    padding-top: 20px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+
+}
+
+section form{
+    width: 500px;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+
+
+section form label{
+    width: 170px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: white;
+    vertical-align: top;
+}
+
+section input[type="text"], textarea{
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button-group{
+    padding-left: 175px;
+}
+
+.button-group #submit, #reset{
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: black;
+    border-width: 1px;
+}
+
+#form-group input, select, textarea{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+aside{
+    width: 50%;
+    height: 560px;
+    float: left;
+}
+
+img{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 500px;
+    height: 380px;
+}
+
+aside h1, h3{
+    color: blue;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 50px;
+}
+
+aside h1{
+    text-shadow: 3px 3px 1px blue;
+    font-size: 34px;
+    margin-top: 20px;
+}
+
+aside h3{
+    font-size: 20px;
+}
+
+footer{
+    clear: both;
+    width: 1200px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-top-style: dotted;
+    border-color: white;
+    border-width: 5px;
+}
+
+footer #p1{
+    margin-top: 20px;
+}
+

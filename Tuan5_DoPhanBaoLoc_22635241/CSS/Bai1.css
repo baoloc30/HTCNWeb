@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(#6dcaec, rgb(11, 146, 224));
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.form-container {
+    padding: 30px;
+    border-radius: 5px;
+}
+.navbar{
+    border-bottom-style: dotted;
+    border-color: white;
+    border-width: 5px;
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #cbe6f9;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-section img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 20px;
+}

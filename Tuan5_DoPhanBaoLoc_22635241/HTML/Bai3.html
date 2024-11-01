@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autumn Travel Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+
+        body{
+            border: 1px solid black;
+        }
+
+        .header{
+        background-color: #9c5f18;
+        color: rgb(93, 141, 16);
+        padding: 15px;
+        border-bottom: 1px solid black;
+        }
+
+        .navbar{
+        padding: 10px;
+        border-bottom: 1px solid black;
+        }
+
+        .navbar a{
+        color: rgb(151, 65, 15);
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        }
+
+        .signup-form{
+        margin: 20px;
+        padding: 20px;
+        border-right: 1px solid rgb(156, 156, 156);
+        }
+
+        .signup-form h2{
+        color: #a67b31;
+        }
+
+        .btn-custom{
+        background-color: #657806;
+        color: white;
+        text-transform: uppercase;
+        }
+
+        .links{
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f6e0c4;
+        }
+
+        .links a{
+        display: block;
+        text-decoration: none;
+        color: #ae652c;
+        margin: 5px 0;
+        }
+
+        .footer{
+        text-align: center;
+        padding: 10px;
+        background-color: #9c5f18;
+        color: black;
+        margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>AUTUMN TRAVEL COMPANY</h1>
+    </div>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Services</a>
+        <a href="#">Order</a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+        <div class="col-md-8">
+            <div class="signup-form">
+            <h2>Sign up for membership benefits</h2>
+            <p>Our philosophical values are transparency, respect, formality, and responsibility. Our stimulus is your enthusiasm. Our motto is your satisfaction.</p>
+            <form>
+                <div class="mb-3">
+                <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                </div>
+
+                <div class="mb-3">
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+
+                <div class="mb-3">
+                <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                </div>
+
+                <div class="mb-3">
+                <input type="password" class="form-control" id="confirmPassword" placeholder="Retype your password">
+                </div>
+
+                <button type="submit" class="btn btn-custom">Sign Me Up</button>
+            </form>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="links">
+            <h4>Links</h4>
+            <a href="#">Make your Own Tour</a>
+            <a href="#">Maldives Tours</a>
+            <a href="#">Nature & Adventure</a>
+            <a href="#">Readymade Tours</a>
+            <a href="#">Europe Tours</a>
+            <a href="#">Russia Tours</a>
+            </div>
+
+            <div class="mt-4">
+            <h4>More info</h4>
+            <p>Our purpose is the client who gives us the opportunity to serve and to make known the reality around the world.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2017 Software Engineering Department | Test Date: 16 Sept 2017</p>
+    </div>
+</body>
+</html>

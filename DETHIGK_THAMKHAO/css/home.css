@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 30px;
+    width: 960px;
+    height: auto;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    position: relative;
+    height: 120px;
+    width: 100%;
+}
+
+header img {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+header p {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    color: rgb(4, 65, 197);
+}
+
+header h2 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color: red;
+}
+
+.d1 {
+    position: absolute;
+    right: 30px;
+}
+
+.d1 p {
+    top: 10px;
+}
+
+.d1 input {
+    top: 50px;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    top: 100px;
+    background-color: rgb(245, 202, 33);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+section {
+    height: 610px;
+    width: 66%;
+    float: left;
+    margin-top: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.s1 {
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: linear-gradient(#f0ecad, #fffddf);
+    border-bottom: 7px solid rgb(205, 173, 10);
+}
+
+.s1 h4 {
+    color: red;
+    margin-left: 30px;
+}
+
+form label {
+    width: 20%;
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+section input[type="text"],
+select {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.button-group {
+    padding-left: 170px;
+}
+
+.button-group #submit {
+    color: white;
+    background: red;
+    border: none;
+}
+
+.s2 {
+    height: 300px;
+}
+
+.d2 #p {
+    background: linear-gradient(#fffddf, #f0ecad);
+    border: 1px solid gray;
+    border-radius: 3px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.d2 #p1 {
+    width: 70%;
+    float: left;
+    height: 120px;
+}
+
+.d2 #p2 {
+    width: 30%;
+    display: flex;
+    height: 120px;
+}
+
+aside {
+    height: 610px;
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.d3 {
+    border: 1px solid gray;
+    border-top: 3px solid rgb(239, 210, 82);
+}
+
+.d4 {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 120px;
+    background-color: #be1e2d;
+    text-align: center;
+}
+
+footer img {
+    float: left;
+    bottom: 20px;
+}
+
+footer #p3 {
+    float: left;
+    width: 60%;
+    color: white;
+}
+
+footer #p4 {
+    width: 30%;
+    float: left;
+    color: white;
+}
