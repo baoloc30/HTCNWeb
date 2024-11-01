@@ -67,7 +67,7 @@
                 $("#tbTen").addClass("mauXanh");
                 return true;
             }
-            //$("#txtHT").blur(kiemTraHT);
+            $("#txtHT").blur(kiemTraHT);
 
             // câu 3
             function kiemTraDC() {
@@ -110,10 +110,10 @@
 
             // câu 6
             $("#btnSave").click(function() {
-                //if (!kiemTraMa() || !kiemTraHT() || !kiemTraDC()) {
-                //alert("Hãy nhập đầy đủ thông tin!!");
-                //return false;
-                //}
+                if (!kiemTraMa() || !kiemTraHT() || !kiemTraDC()) {
+                    alert("Hãy nhập đầy đủ thông tin!!");
+                    return false;
+                }
                 var ma = $("#txtMa").val();
                 var ht = $("#txtHT").val();
                 var dc = $("#txtDC").val();
